@@ -53,6 +53,7 @@
     <Compile Include="MainActivity.cs" />
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Web\MyWebActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -72,6 +73,9 @@
     <AndroidResource Include="SimonApplication\app\src\main\res\layout\cashflow_mywebview.xml">
       <Link>Resources\layout\cashflow_mywebview.xml</Link>
     </AndroidResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Web\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

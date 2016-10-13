@@ -21,6 +21,24 @@ namespace Simon.Droid
 			base.OnCreate(savedInstanceState);
 
 			// Create your application here
+
+			//1.controller vs. view
+
+			SetContentView(Resource.Layout.cashflow_mywebview);
+
+			//2.UIControl Binding 
+
+			var btn = FindViewById<Button>(Resource.Id.cashflow_mywebview_btnGo);
+			var txt = FindViewById<EditText>(Resource.Id.cashflow_mywebview_txtURL);
+			var web = FindViewById<WebView>(Resource.Id.cashflow_mywebview_webview);
+
+
+
+
+
+
+
+
 		}
 	}
 }
